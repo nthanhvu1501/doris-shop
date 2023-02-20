@@ -1,0 +1,162 @@
+
+#login-page #container{
+  margin: 40px auto;
+}
+#login-page {
+  /* background-color: rgb(10, 127, 159); */
+  background-color: #e6e9eb;
+ 
+}
+#login-page header{
+  background: none;
+}
+.login-form {
+    overflow: hidden;
+  width: 430px;
+  height: 600px;
+  position: relative;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-color: #e6e9eb;
+  padding: 60px 35px 35px;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding: 10px;
+  /* backdrop-filter: blur(10px); */
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+.btn-group {
+  width: 100%;
+  padding: 10px 5px 5px;
+}
+
+.btn-top {
+  width: 250px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 20px #fff;
+  border-radius: 25px;
+}
+button {
+  text-transform: capitalize;
+  
+}
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-weight: 600;
+}
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 130px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.input-group {
+
+  width: 95%;
+  transition: .5s;
+  padding: 20px 5px 5px 5px;
+}
+.input-group input {
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: none;
+  color: #555;
+  padding: 20px 10px 20px;
+}
+.username,
+.password, .email {
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 20px #fff;
+}
+.password-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.submit-btn {
+  width: 85%;
+  height: 50px;
+  padding: 10px 30px;
+  margin: 20px auto auto;
+  display: block;
+  outline: none;
+  border: none;
+  background: var(--primary-color);
+  border-radius: 30px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 4px 4px 8px #969595, -8px -8px 8px #fff;
+}
+.check-box {
+  margin-left: 10px;
+}
+.bottom-form{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+.line span {
+  width: 50%;
+  height: 1px;
+  background-color: var(--border-color);
+}
+.line p {
+  margin: 0 10px;
+}
+.social-login {
+    
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.social-login .item a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.social-login .item {
+
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.social-login .item:hover {
+  background-color: #a7a5a5;
+}
+.line {
+
+
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#login{
+    
+    position: absolute;
+    left: 0;
+}
+#register{
+   position: absolute;
+   left: 100%;
+}
+.user-agree span{
+    text-align: center;
+}
+.user-agree a{
+    color: var(--primary-color);
+}

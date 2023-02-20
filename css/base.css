@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --primary-color: #f94a29;
+  --secondary-color: #2772f6;
+  --secondary-dark-color: #031841;
+
+  --light-bg-color: #f7f7f7;
+  --light-text-color: #a19696;
+  --border-color: #c4bcbc;
+  --dark-color: #292525;
+
+  --font-small: 13px;
+  --font-smaller: 11px;
+
+  --trans-bg-color: background-color 0.3s color 0.3s;
+  --trans-bg: background-color 0.3s;
+  --trans-color: color 0.3s;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 100vh;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+li {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+.main-links a:hover {
+  color: var(--secondary-color);
+}
+.second-links a:hover {
+  color: var(--light-text-color);
+}
+.icon-large {
+  font-size: 20px;
+  padding-right: 1em;
+}
+.icon-small {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5em;
+  font-weight: normal;
+  font-size: 11px;
+  margin-left: auto;
+}
+.object-cover img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col-4 {
+  width: calc(100% / 3);
+}
+.col-8 {
+  width: calc(2 * (100% / 3));
+}
+.col-6 {
+  width: 50%;
+}
+
+
